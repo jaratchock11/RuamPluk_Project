@@ -10,28 +10,32 @@
         <title>Knowledge</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="css/button.css" rel="stylesheet">
+        <link href="css/navbarCSS.css" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Mitr' rel='stylesheet'>
     </head>
     <body>
-         <div class="navbar">
-            <form action="HomeServlet" method="post">
-             <button class="tablink" onclick="openCity('HOME', this, 'red')" id="defaultOpen">HOME</button>
-            </form>
-             
-             <form action="KnowledgeServlet" method="post">
-                 <button class="tablink" type="submit" onclick="openCity('KNOWLEDGE', this, 'green')">KNOWLEDGE</button>
-             </form>
-            <button class="tablink" onclick="openCity('CAMPAIGN', this, 'blue')">CAMPAIGN</button>
-            <form action="LocationServlet" method="post">
-            <button class="tablink" onclick="openCity('LOCATION', this, 'orange')">LOCATION</button>
-            </form>
-            <button class="tablink" onclick="openCity('PLANING', this, 'orange')">PLANTING</button>
+
+
+        <div id="navbar">
+            <img src="https://www.img.in.th/images/52e76f9dbb2d67a9bb5ab74db601c3a0.png">
+
+            
+            <a href="${pageContext.servletContext.contextPath}/HomeServlet" method="post">Home</a>
+            <a>Planting</a>           
+            <a href="${pageContext.servletContext.contextPath}/LocationServlet" method="post">Location</a>
+         
+            <a href="${pageContext.servletContext.contextPath}/KnowledgeServlet" method="post">Knowledge</a>
+       
+            <a href="${pageContext.servletContext.contextPath}/CampaignServlet" method="post">Campaign</a>
+            
+      
         </div>
         <br><br>
 <!--       <form action="HomeServlet" method="post">
        
            <input type="submit" title="Home" value="Home"><hr>
         </form>-->
+<br><br>
         <jsp:include page="/WEB-INF/jsp/Header.jsp?title=:: K n o w l e d g e ::"/><br>
         
          
@@ -51,21 +55,11 @@
                     <div class="container">
                         <h2>Tree Name : <%=c.getKnowName()%></h2>
                         <p>Description : <%=c.getKnowDesc()%></p>
-                        <!--<p><button class="button">JOIN</button></p>-->
+  
                     </div>
                 </div>
             </div>
-           
-                        
-                        
-                        
-           
-              
-<!--            
-            <td><center><%=c.getKnowName()%></center></td>
-            <td><%=c.getKnowDesc()%></td>
-            <td><center><img src="<%=c.getKnowPic()%>" width="400" height="300"></center></td>-->
-            
+          
         
          <%}%>    
        
@@ -74,7 +68,5 @@
         <%}%>
             
     </body>
-    <div class="footer">
-                        <p><br><br></p>
-                    </div>
+   
 </html>
