@@ -47,11 +47,15 @@ body, html {
 }
 
 body{ 
+    background-color: #009966;
+    
     /* The image used */
 /*    background-image: url("http://getwallpapers.com/wallpaper/full/e/5/c/817623-download-free-nature-backgrounds-hd-1920x1080.jpg");*/
+    
 
     /* Full height */
     height: 100%; 
+    
 
     /* Center and scale the image nicely */
     background-position: center;
