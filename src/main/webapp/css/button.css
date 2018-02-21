@@ -36,7 +36,6 @@ and open the template in the editor.
     position: fixed; /* Set the navbar to fixed position */
       /*Position the navbar at the bottom of the page */
     width: 100%; /* Full width */
-    
 }
 
 .main {
@@ -49,7 +48,7 @@ body, html {
 
 body{ 
     /* The image used */
-    background-image: url("http://getwallpapers.com/wallpaper/full/e/5/c/817623-download-free-nature-backgrounds-hd-1920x1080.jpg");
+/*    background-image: url("http://getwallpapers.com/wallpaper/full/e/5/c/817623-download-free-nature-backgrounds-hd-1920x1080.jpg");*/
 
     /* Full height */
     height: 100%; 
