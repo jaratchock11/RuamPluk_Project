@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>HomeServlet</servlet-name>
-        <servlet-class>com.project.controller.HomeServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>KnowledgeServlet</servlet-name>
         <servlet-class>com.project.controller.KnowledgeServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>LocationServlet</servlet-name>
-        <servlet-class>com.project.controller.LocationServlet</servlet-class>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>com.project.controller.HomeServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
@@ -20,17 +16,21 @@
         <servlet-name>LogoutServlet</servlet-name>
         <servlet-class>com.project.controller.LogoutServlet</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>HomeServlet</servlet-name>
-        <url-pattern>/HomeServlet</url-pattern>
-    </servlet-mapping>
+    <servlet>
+        <servlet-name>LocationServlet</servlet-name>
+        <servlet-class>com.project.controller.LocationServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CampaignServlet</servlet-name>
+        <servlet-class>com.project.controller.CampaignServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>KnowledgeServlet</servlet-name>
         <url-pattern>/KnowledgeServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>LocationServlet</servlet-name>
-        <url-pattern>/LocationServlet</url-pattern>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/HomeServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
@@ -39,6 +39,14 @@
     <servlet-mapping>
         <servlet-name>LogoutServlet</servlet-name>
         <url-pattern>/LogoutServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LocationServlet</servlet-name>
+        <url-pattern>/LocationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CampaignServlet</servlet-name>
+        <url-pattern>/CampaignServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
