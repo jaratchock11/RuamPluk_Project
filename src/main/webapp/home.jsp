@@ -42,16 +42,15 @@
              <div class="w3-content w3-section" style="width: 100%">
             <img class="mySlides" src="https://www.picz.in.th/images/2018/02/21/motion.gif" style="width:100%">
             <br>
-            <h2>New Campaign</h2>
+            <h2 style="color: white">New Campaign</h2>
             <div class="row">
                 <div class="column">
                     <div class="card">
-                        <img src="https://photos.projects-abroad.org/projects/conservation-and-environment/costa-rica-rain-forest-conservation/oscar-julie-plant-barra-honda.800.jpg" alt="camp1" style="width:100%">
+                        <img src="http://www.marketingoops.com/wp-content/uploads/2016/05/joey4.jpg" alt="camp1" style="width:100%">
                         <div class="container">
-                            <h2>CAMPAIGN 1</h2>
-                            <p class="title">OPEN REGISTER : 19/02/18</p>
-                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                            <p>Some text that describes me .</p>
+                            <h2>Pluk Loey (ปลูกเลย)</h2>
+                            <p class="title">Duration : 30 พฤษภาคม พ.ศ.2561</p>
+                            <p>Location : บ้าน นาก้า อำเภอ เวียงสาน จังหวัด น่าน</p>
                             <p><button class="button">JOIN</button></p>
                         </div>
                     </div>
@@ -59,12 +58,11 @@
                 <div class="row">
                     <div class="column">
                         <div class="card">
-                            <img src="http://teamgiving.org/wp-content/uploads/2016/10/what_is_a_good_volunteer-1.jpg" alt="camp1" style="width:100%">
+                            <img src="http://www.forest.go.th/orip/images/stories/NEWS_Den/18-5-55_Ong%20ka%20mon%20tee_Keaw%20noi/25.JPG" alt="camp1" style="width:100%; height: 300px">
                             <div class="container">
-                                <h2>CAMPAIGN 2</h2>
-                                <p class="title">OPEN REGISTER : 20/02/18</p>
-                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                <p>Some text that describes me .</p>
+                                <h2>โครงการปลูกป่าชายเลนเชิงอนุรักษ์</h2>
+                                <p class="title">Duration : 19-20 พฤศจิกายน พ.ศ.2561</p>
+                                <p>Location : กลุ่มวิสาหกิจชุมชน “กลุ่มคนรักษ์คลองโคน” ตำบลคลองโคน อำเภอเมือง จังหวัดสมุทรสงคราม</p>
                                 <p><button class="button">JOIN</button></p>
                             </div>
                         </div>
@@ -72,55 +70,51 @@
                     <div class="row">
                         <div class="column">
                             <div class="card">
-                                <img src="http://www.yeu-international.org/images/403/3/1/1/One+Volunteer+One+Tree+Every+Year.jpg" alt="camp1" style="width:100%">
+                                <img src="http://www.รู้จริงพลังงานไทย.com/wp-content/uploads/2016/03/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%9B%E0%B9%88%E0%B8%B22.jpg" alt="camp1" style="width:100%">
                                 <div class="container">
-                                    <h2>CAMPAIGN 3</h2>
-                                    <p class="title">OPEN REGISTER : 21/02/18</p>
-                                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                    <p>Some text that describes me .</p>
+                                    <h2>โครงการปลูกป่าวังจันทร์</h2>
+                                    <p class="title">Duration : 2 มีนาคม พ.ศ.25618</p>
+                                    <p>Location : สถาบันปลูกป่า ปตท. อำเภอ วังจันทร์ จังหวัด ระยอง</p>
                                     <p><button class="button">JOIN</button></p>
                                 </div>
                             </div>
                         </div>
 
                         <br>
-                        <h2>New Knowledge</h2>
+                        <h2 style="color: white">New Knowledge</h2>
                         <div class="row">
                             <div class="column">
                                 <div class="card">
-                                    <img src="https://photos.projects-abroad.org/projects/conservation-and-environment/costa-rica-rain-forest-conservation/oscar-julie-plant-barra-honda.800.jpg" alt="camp1" style="width:100%">
+                                    <img src="http://1.bp.blogspot.com/-UlJT307uOdM/T8lU4HJvs8I/AAAAAAAAAjE/FJ-dK2-BeW4/s1600/%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C+047+(Small).jpg" alt="camp1" style="width:100%">
                                     <div class="container">
-                                        <h2>CAMPAIGN 1</h2>
-                                        <p class="title">OPEN REGISTER : 19/02/18</p>
-                                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                        <p>Some text that describes me .</p>
-                                        <p><button class="button">JOIN</button></p>
+                                        <h2>Mango (มะม่วง)</h2>
+                                        <p class="title">Description : มะม่วงเป็นไม้ยืนต้นในสกุล Mangifera ซึ่งเป็นไม้ผลเมืองร้อนในวงศ์ Anacardiaceae (กลุ่มเดียวกับถั่วพิสตาชีโอและมะม่วงหิมพานต์) ชื่อวิทยาศาสตร์: Mangifera indica เป็นพืชที่มีถิ่นกำเนิดในอินเดีย</p>
+                                        
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="column">
                                     <div class="card">
-                                        <img src="http://teamgiving.org/wp-content/uploads/2016/10/what_is_a_good_volunteer-1.jpg" alt="camp1" style="width:100%">
+                                        <img src="http://1.bp.blogspot.com/-FPPff3D9VuA/TzChUOxCieI/AAAAAAAAGeg/VRBbQX2qipI/s400/%E0%B8%95%E0%B9%89%E0%B8%99%E0%B8%82%E0%B8%99%E0%B8%B8%E0%B8%99.jpg" alt="camp1" style="width:100%">
                                         <div class="container">
-                                            <h2>CAMPAIGN 2</h2>
-                                            <p class="title">OPEN REGISTER : 20/02/18</p>
-                                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                            <p>Some text that describes me .</p>
-                                            <p><button class="button">JOIN</button></p>
+                                            <h2>Jackfruit (ขนุน)</h2>
+                                            <p class="title">Description : ขนุนเป็นไม้ยืนต้นขนาดใหญ่ อยู่ในวงศ์เดียวกับสาเก สูง 15-30 เมตร ลำต้นและกิ่งเมื่อมีบาดแผลจะมีน้ำยางสีขาวข้นคล้ายน้ำนมไหล ใบเดี่ยว เรียงสลับ แผ่นใบรูปรี ขนาดกว้าง 5-8 เซนติเมตร ยาว 10-15 เซนติเมตร</p>
+                                            
+                                           
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="column">
                                         <div class="card">
-                                            <img src="http://www.yeu-international.org/images/403/3/1/1/One+Volunteer+One+Tree+Every+Year.jpg" alt="camp1" style="width:100%">
+                                            <img src="http://1.bp.blogspot.com/-UlJT307uOdM/T8lU4HJvs8I/AAAAAAAAAjE/FJ-dK2-BeW4/s1600/%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C+047+(Small).jpg" alt="camp1" style="width:100%">
                                             <div class="container">
-                                                <h2>CAMPAIGN 3</h2>
-                                                <p class="title">OPEN REGISTER : 21/02/18</p>
-                                                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                                <p>Some text that describes me .</p>
-                                                <p><button class="button">JOIN</button></p>
+                                                <h2>Durian (ทุเรียน)</h2>
+                                                <p class="title">Description : ทุเรียนเป็นผลไม้ที่มีกลิ่นเฉพาะตัว ซึ่งเป็นส่วนผสมของสารระเหยที่ประกอบไปด้วยเอสเทอร์ คีโตน และสารประกอบกำมะถัน บางคนบอกว่าทุเรียนมีกลิ่นหอม ในขณะที่บางคนบอกว่ามีกลิ่นเหม็นรุนแรงจนถึงขั้นสะอิดสะเอียน ทำให้มีการห้ามนำทุเรียนเข้ามาในโรงแรมและการขนส่งสาธารณะ</p>
+                                                
+                                             
+                                                
                                             </div>
                                         </div>
                                     </div>
